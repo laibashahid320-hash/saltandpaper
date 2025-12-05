@@ -199,12 +199,3 @@ a {
 #faislabadimg {
     margin: 0px 0px 0px -270px;
 }
-
-@font-face {
-    font-family: futurakblack-bt;
-    src: url('font/futurakblack-bt.ttf') format('truetype');
-}
-
-.futurak {
-    font-family: 'futurakblack-bt';
-}
