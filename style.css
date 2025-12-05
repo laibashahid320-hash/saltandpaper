@@ -1,25 +1,32 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: black;
     font-family: sans-serif;
+    color: white;
 }
 
-nav {
+body {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar {
     display: flex;
     height: 18vh;
     align-items: center;
     font-size: 16px;
 }
 
-img {
+#navbar>div>img {
     width: 170px;
     padding: 10px 60px;
 }
 
-ul {
+#navbar>div>ul {
     margin-left: 320px;
-    color: white;
     list-style: none;
     display: flex;
     gap: 35px;
@@ -30,19 +37,24 @@ ul {
     margin-left: 30px;
 }
 
-button {
+.button {
     border: 1px solid white;
     border-radius: 50px;
     padding: 15px;
     margin: 4px;
+    background-color: black;
 }
 
-.red {
+#red {
     border: 1px solid red;
     background-color: red;
 }
 
-#arrow {
+#a {
+    background-color: red;
+}
+
+.fa {
     border: 1px solid white;
     background-color: white;
     border-radius: 100px;
@@ -51,19 +63,14 @@ button {
     margin-left: 6px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
 
-#salt {
+#section1>div>img {
     display: flex;
     width: 100%;
     padding: 0px;
 }
 
 #para {
-    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,25 +85,24 @@ a {
     font-family: sans-serif;
 }
 
-#p2 {
+.p2 {
     color: rgb(167, 167, 167);
 }
 
-main {
+#section2>main {
     display: flex;
     justify-content: center;
     gap: 30px;
-
 }
 
-.img1 {
+#section2>main>div>img {
     background-color: white;
     border-radius: 4px;
     padding: 30px 20px;
     width: 200px;
 }
 
-#img4 {
+#img1 {
     height: 82px;
 }
 
@@ -107,7 +113,98 @@ main {
     margin: 10px 0px 145px 0px;
 }
 
-.b1 {
+#buttonsarrange>button {
     padding: 16px 50px;
-    border: 1px solid rgb(83, 83, 83);
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: black;
+}
+
+#section3 {
+    background-image: url('https://images-beta.tossdown.com/site/bb1bd702-431a-4f3a-a0ca-c5966a1f7985.webp');
+    background-repeat: no-repeat;
+    background-position-x: 900px;
+    background-position-y: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    background-color: rgba(255, 255, 255, 0.06);
+    height: 235vh;
+}
+
+.para2 {
+    padding: 6px;
+    align-items: center;
+    text-align: center;
+}
+
+#section3>div {
+    padding: 50px 0px;
+}
+
+#section3>div>p {
+    padding: 6px;
+    align-items: center;
+    text-align: center;
+}
+
+#h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+#section3>main {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#section3>main>div>span {
+    color: red;
+    margin: 2px;
+}
+
+#section3>main>div>h2 {
+    margin: 20px 0px;
+}
+
+#section3>main>div>p {
+    margin: 10px 0px;
+}
+
+#section3>main>div>button {
+    margin: 40px 0px;
+    background-color: transparent;
+    border: 1px solid rgb(96, 96, 96);
+}
+
+#section3>main>div>p>i {
+    background-color: transparent;
+    border: none;
+    color: rgb(167, 167, 167);
+    padding: 0px;
+    margin: 0px;
+}
+
+#main2 {
+    flex-direction: row-reverse;
+    margin: 50px 0px 50px 0px;
+}
+
+#faislabad {
+    margin-left: -650px;
+}
+
+#faislabadimg {
+    margin: 0px 0px 0px -270px;
+}
+
+@font-face {
+    font-family: futurakblack-bt;
+    src: url('font/futurakblack-bt.ttf') format('truetype');
+}
+
+.futurak {
+    font-family: 'futurakblack-bt';
 }
