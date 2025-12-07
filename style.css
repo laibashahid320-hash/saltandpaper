@@ -1,12 +1,12 @@
 * {
     padding: 0;
     margin: 0;
-    color: white;
 }
 
 body {
     background-color: black;
     font-family: apercu;
+    color: white;
 }
 
 @font-face {
@@ -34,6 +34,7 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 nav {
@@ -213,9 +214,21 @@ nav>main>div>ul {
     color: rgb(167, 167, 167);
 }
 
-.main {
+#main-1 {
     display: flex;
     flex-direction: row-reverse;
+    width: 100%;
+}
+
+#main-div-1 {
+    width: 40%;
+    margin-left: -200px;
+
+}
+
+#main-div-2{
+    width: 43%;
+    margin-left: -40px;
 }
 
 #section-4 {
@@ -280,18 +293,30 @@ nav>main>div>ul {
     padding: 50px 0;
 }
 
-#section-5>main {
-    display: flex;
-    width: 100%;
-}
-
 #section-5>div {
     padding-bottom: 30px;
     text-align: center;
 }
 
+#section-5>main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#section-5-div-1{
+    width: 60%;
+    margin-right: -100px;
+}
+
 #section-5>main>div>img {
     width: 85%;
+}
+
+#section-5-div-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 #section-5>main>div>span {
@@ -307,6 +332,7 @@ nav>main>div>ul {
 #section-5>main>div>button {
     background-color: green;
     border: 1px solid green;
+    width: 150px;
 }
 
 #section-5>main>div>button>a>i {
@@ -326,4 +352,113 @@ nav>main>div>ul {
 #section-6>div>h2>span {
     font-family: apercu;
     font-size: 30px;
+}
+
+#section-6>main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 40px;
+    column-gap: 25px;
+    padding: 40px 0;
+}
+
+#section-6>main>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+    width: 350px;
+    text-align: center;
+    padding: 25px 0;
+    border-radius: 5px;
+}
+
+#section-6>main>div>img {
+    width: 60px;
+}
+
+#section-6>main>div>small {
+    color: red;
+    letter-spacing: 4px;
+    font-size: x-small;
+}
+
+#section-6>main>div>span {
+    font-size: 25px;
+}
+
+#section-7 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.06);
+    padding: 60px 100px 50px 60px;
+    background-image: url('https://images-beta.tossdown.com/site/a4195117-d4ae-45d4-9088-21162bacdfb1.webp');
+    background-repeat: no-repeat;
+    background-position-y: 200px;
+}
+
+#side-1 {
+    width: 360px;
+    padding: 5px 0 0;
+    text-align: left;
+}
+
+#side-1>img {
+    width: 150px;
+    padding: 10px 0;
+}
+
+#side-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#side-2>ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#side-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 220px;
+}
+
+#side-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#side-4>p {
+    display: flex;
+    gap: 10px;
+}
+
+#side-4>p>i {
+    background-color: red;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+#side-4>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#side-4>ul>li {
+    list-style: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
 }
