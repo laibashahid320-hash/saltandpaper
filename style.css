@@ -9,6 +9,7 @@ body {
     color: white;
 }
 
+/* fonts */
 @font-face {
     font-family: "futurak";
     src: url(./fonts/futurak\ \(1\).ttf);
@@ -24,6 +25,7 @@ body {
     src: url(./fonts/Butler_Regular.otf);
 }
 
+/* navbar */
 .futurak {
     font-family: futurak;
 }
@@ -87,11 +89,12 @@ nav>main>div>ul {
     padding: 4px;
 }
 
-
+/* section 1 image */
 #section-1>div>img {
     width: 100%;
 }
 
+/* section 2 welcome to resturant */
 #section-2 {
     display: flex;
     flex-direction: column;
@@ -150,8 +153,9 @@ nav>main>div>ul {
     background-color: black;
 }
 
+/* section 3 franchises */
 #section-3 {
-    background-image: url('https://images-beta.tossdown.com/site/bb1bd702-431a-4f3a-a0ca-c5966a1f7985.webp');
+    background-image: url('./images/S.webp');
     background-repeat: no-repeat;
     background-position-x: 900px;
     background-position-y: 30px;
@@ -226,13 +230,14 @@ nav>main>div>ul {
 
 }
 
-#main-div-2{
+#main-div-2 {
     width: 43%;
     margin-left: -40px;
 }
 
+/* section 4 express franchiese */
 #section-4 {
-    background-image: url('https://images-beta.tossdown.com/site/5c3e9532-2fd4-4458-9d20-fa3b8b7f0c28.webp');
+    background-image: url('./images/p');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-x: 40px;
@@ -286,6 +291,7 @@ nav>main>div>ul {
     padding: 6px;
 }
 
+/* section 5 village franchises */
 #section-5 {
     display: flex;
     flex-direction: column;
@@ -304,7 +310,7 @@ nav>main>div>ul {
     width: 100%;
 }
 
-#section-5-div-1{
+#section-5-div-1 {
     width: 60%;
     margin-right: -100px;
 }
@@ -339,6 +345,7 @@ nav>main>div>ul {
     color: green;
 }
 
+/* section 6 opening soon franchises */
 #section-6 {
     padding: 60px 0;
 }
@@ -389,12 +396,13 @@ nav>main>div>ul {
     font-size: 25px;
 }
 
+/* section 7 contact us */
 #section-7 {
     display: flex;
     justify-content: space-between;
     background-color: rgba(255, 255, 255, 0.06);
     padding: 60px 100px 50px 60px;
-    background-image: url('https://images-beta.tossdown.com/site/a4195117-d4ae-45d4-9088-21162bacdfb1.webp');
+    background-image: url('./images/s 2.webp');
     background-repeat: no-repeat;
     background-position-y: 200px;
 }
@@ -457,6 +465,7 @@ nav>main>div>ul {
     list-style: none;
 }
 
+/* footer */
 footer {
     display: flex;
     justify-content: space-between;
